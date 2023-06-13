@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.get("/", async (req, res) => {
   res.status(200).send({
-    message: "hello from Ask_AI",
+    message: "Hello from Ask_AI",
   });
 });
 app.post("/", async (req, res) => {
